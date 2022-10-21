@@ -19,7 +19,7 @@ class BaseConfig:
     SERVICE_BUS_QUEUE_NAME = 'notificationqueue'
     ADMIN_EMAIL_ADDRESS: 'sanyaoluadefemi@gmail.com'
     # Configuration not required, required SendGrid Account
-    SENDGRID_API_KEY = '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'
+    SENDGRID_API_KEY = ''
 
 
 class DevelopmentConfig(BaseConfig):
